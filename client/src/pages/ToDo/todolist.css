@@ -1,0 +1,59 @@
+body{
+    /* background: #1f1f1f; */
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 55px;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards-todo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card-head{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-head h1{
+    margin: 0px;
+}
+
+.card p{
+    margin-bottom: 30px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}

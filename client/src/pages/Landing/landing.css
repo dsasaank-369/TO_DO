@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.landing_body{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary{
+    background-color: #CC313D;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 1rem;
+}
+
+.primary:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.secondary{
+    background-color: #F7C5CC;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 1rem;
+}
+
+.secondary:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.main-landing{
+    margin-top:50px;
+    padding: 30px;
+}
